@@ -1,0 +1,447 @@
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    max-width: 100%;
+    min-height: 10%;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.header__menu__item {
+    margin-left: 15px;
+}
+
+.header__ringbutton {
+    background-color: rgb(240,43,112);
+    padding: 20px 40px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.mainbody {
+   background-color: rgb(247,246,255); 
+}
+
+.mainbody__container{
+    margin: 0 10% 0 10%;
+}
+
+
+/*Студия дазийна полного цикла*/
+.mainbody__banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.mainbody__banner__buttons {
+
+}
+
+.mainbody__banner__button{
+    background-color: rgb(119,178,211);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+
+.mainbody__banner__description__studio{
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.mainbody__banner__description__cycle{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.mainbody__banner__description__comment{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 14px 0 29px 0;
+}
+
+
+/*Мы знаем толк в дизайне*/
+.mainbody__design {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    padding: 40px 71px 50px 55px;
+    margin-bottom: 76px;
+}
+
+.mainbody__design__style{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px; 
+}
+
+.mainbody__design__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.mainbody__design__info__block {   
+    
+}
+
+hr.mainbody__design__info__border {
+    width: 1px;
+    height: 86px;
+    background: #C7C7C7;
+}
+
+.mainbody__design__info__block--main {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    color: rgb(221,36,131);
+}
+
+.mainbody__design__info__block--description {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color:black;
+}
+
+
+/*Услуги*/
+.mainbody__services{
+
+}
+
+.mainbody__services__title{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+
+.mainbody__services__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mainbody__services__block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainbody__services__item{
+    border-radius: 15px;
+    background-color: white;
+    border-color: transparent;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    height: 378px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.mainbody__services__item__promo{
+    background-color: #77B2D3;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    text-transform: uppercase;
+    color:white;
+    padding: 11px 0;
+    width: 220px;
+    height: 74px;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbody__services__item__checkboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 21px 0px 0px 16px;
+}
+
+.mainbody__services__item__checkboxes__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3px 0 3px 0;
+}
+
+.mainbody__services__item__checkboxes__item__text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 6px;
+}
+
+.mainbody__services__item > hr {
+    width: 210px;
+    height: 1px;
+    background-color: #E2E2E2;
+}
+
+.mainbody__services__item__price__container{
+    padding: 0 30px 15px 30px;
+}
+
+.mainbody__services__item__from {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.mainbody__services__item__price{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    color: rgb(221,36,131);
+}
+
+.mainbody__services__button{
+    border-radius: 9px;
+    background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    color:white;
+    border-color: transparent;
+    padding: 14px 53px;
+}
+
+
+/*Заказать консультацию специалиста*/
+.mainbody__order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 91px;
+}
+
+.mainbody__order__form{
+    
+}
+
+.mainbody__order__title{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.mainbody__order__description{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 22px;
+}
+
+.mainbody__order__personaldata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.mainbody__order__input{
+    width: 270px;
+    height: 59px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    border-color: transparent;
+    margin: 0 30px 20px 0;
+}
+
+.mainbody__order__textarea{
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    border-color: transparent;
+    width: 570px;
+    height: 141px;
+    margin-bottom: 20px;
+}
+
+.mainbody__order__condition {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainbody__order__condition__text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    margin-left: 12px;
+    color: #333;
+}
+
+.mainbody__order__checkbox {
+    width: 32px;
+    height: 32px;
+    border-color: transparent;
+    border-radius: 2px;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+.mainbody__order__button{
+    margin-top: 21px;
+    width: 195px;
+    height: 54px;
+    border-radius: 9px;
+    border-color: transparent;
+    background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    color:white;
+}
+
+
+/*Наши работы*/
+.mainbody__work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 91px;
+}
+
+.mainbody__work__title{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+
+.mainbody__work__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Футер*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    justify-content: space-around;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 52px 0 60px 103px;
+}
+
+.footer__review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer__policy{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.footer__rewiew{
+    width: 205px;
+    height: 54px; 
+    border-radius: 9px;
+    background-color: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+    border-color: transparent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    color:white;
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer__info__item{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.footer__info__item:first{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.footer__law{
+    background: #2D2D2D;
+    height: 41px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    color:white;
+    text-align: center;
+}
